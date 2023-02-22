@@ -1,0 +1,103 @@
+#form-title {
+  padding-bottom: 49px;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #333;
+  font-size: 39px;
+  text-align: center;
+}
+
+.limiter {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../assets/images/bg-01.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+}
+
+.wrap-login {
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 54px;
+  padding-top: 65px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-up-container-1 {
+  padding-top: 54px;
+  padding-bottom: 20px;
+}
+
+.sign-up-text {
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.sign-up-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 155px;
+}
+
+.sign-up-link {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sign-up-link:hover {
+  color: #a64bf4;
+}
+
+.forgot-psw-container {
+  padding-top: 8px;
+  padding-bottom: 31px;
+  text-align: right;
+}
+
+.forgot-psw-container a {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666;
+  margin: 0;
+  text-decoration: none;
+}
+
+.forgot-psw-container a:hover {
+  color: #a64bf4;
+}
+
+@media screen and (max-width: 576px) {
+  .wrap-login {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

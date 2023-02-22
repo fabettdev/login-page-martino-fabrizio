@@ -1,0 +1,30 @@
+.login-social-item {
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.login-social-item:hover {
+  background-color: #333333;
+}
+
+.bg-facebook {
+  background-color: #3b5998;
+}
+
+.bg-twitter {
+  background-color: #55acee;
+}
+
+.bg-google {
+  background-color: #dd4b39;
+}
