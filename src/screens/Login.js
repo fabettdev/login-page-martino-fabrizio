@@ -63,7 +63,7 @@ class Login extends Component {
     return (
       <div className="limiter">
         <div className="container-login">
-          <Form onSubmitForm={this.checkInputValidation} formTitle={"Login"} errorMessagePassword={this.state.pswMessage} errorMessageEmail={this.state.emailMessage}>
+          <Form onSubmitForm={this.checkInputValidation} formTitle={"Login"}>
             <Input
               label="Email"
               name="email"

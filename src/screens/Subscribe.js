@@ -119,7 +119,7 @@ class Subscribe extends Component {
         return (
             <div className="limiter">
                 <div className="container-login">
-                    <Form onSubmitForm={this.checkInputValidation} formTitle={"Subscribe"} errorMessagePassword={this.state.pswMessage} errorMessageEmail={this.state.emailMessage}>
+                    <Form onSubmitForm={this.checkInputValidation} formTitle={"Subscribe"}>
                         <Input
                             label="Name *"
                             name="name"
