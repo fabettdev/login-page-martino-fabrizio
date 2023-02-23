@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import './select.css';
 import "./input.css";
 
@@ -14,10 +15,14 @@ function Select(props) {
             <select>
                 <option defaultValue="">None</option>
                 {props.selectOptions.map(mapOptions)}
-            </select >
-            <span className="focus-input" data-icon={props.icon}></span>
+            </select>
         </div>
     )
+}
+
+Select.propTypes = {
+    label: PropTypes.string,
+    selectOptions: PropTypes.array.isRequired,
 }
 
 export default Select;

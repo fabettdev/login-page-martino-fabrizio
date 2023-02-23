@@ -1,5 +1,6 @@
 import React from "react";
 import "./socialLogo.css";
+import PropTypes from 'prop-types';
 
 function SocialLogo(props) {
   return (
@@ -9,6 +10,11 @@ function SocialLogo(props) {
       </a>
     </div>
   );
+}
+
+SocialLogo.propTypes = {
+  className: PropTypes.string,
+  bgColor: PropTypes.string,
 }
 
 export default SocialLogo;

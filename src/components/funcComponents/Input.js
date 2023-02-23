@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import "./input.css";
 
 function Input(props) {
@@ -40,6 +41,20 @@ function Input(props) {
 
 Input.defaultProps = {
   inputIcon: false,
+}
+
+Input.propTypes = {
+  inputCallback: PropTypes.func,
+  toggleCallback: PropTypes.func,
+  margin: PropTypes.string,
+  alertValidate: PropTypes.string,
+  inputCSS: PropTypes.string,
+  label: PropTypes.string,
+  placeholder: PropTypes.string,
+  type: PropTypes.string,
+  nameInput: PropTypes.string,
+  inputIcon: PropTypes.bool,
+  isVisible: PropTypes.bool
 }
 
 export default Input;

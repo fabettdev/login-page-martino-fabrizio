@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import "./formButton.css";
 
 function FormButton(props) {
@@ -18,6 +19,15 @@ function FormButton(props) {
       </div>
     </div>
   );
+}
+
+FormButton.defaultProps = {
+  label: 'Send',
+}
+
+FormButton.propTypes = {
+  callbackButton: PropTypes.func,
+  label: PropTypes.string,
 }
 
 export default FormButton;
